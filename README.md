@@ -3,7 +3,7 @@
 In the src folder, you will see all of source code to see how the program works. 
 The DataSource file contains most of the logic for accessing the database and such.
 
-In the DataSource there are these functions and their explanations:
+## DataSource file
 
 "open" function - begins the connection the the database and creates and prepares a bunch of PreparedStatement objects.
 "close" function - closes all possible connections with database or still open PreparedStatement objects.
